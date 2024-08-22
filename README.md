@@ -1,3 +1,2 @@
 # TCET
 THIS IS AN ACCOUNT FOR TCET
-clear 
