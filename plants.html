@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Plants</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F7F7F7;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: #ECF0F1;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ECF0F1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #1ABC9C;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #1ABC9C;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .plant-categories {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .plant-card {
+            background-color: #ECF0F1;
+            border: 2px solid #1ABC9C;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            width: 30%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .plant-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .plant-card h3 {
+            color: #16A085;
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Back to Home button */
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 10px 20px;
+            background-color: #1ABC9C;
+            color: #FFF;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #16A085;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2C3E50;
+            color: #ECF0F1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Types of Plants</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plants.html">Types of Plants</a></li>
+                <li><a href="tips.html">Gardening Tips</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Explore Types of Plants for Your Garden</h2>
+            <div class="plant-categories">
+                <div class="plant-card">
+                    <h3>Vegetables</h3>
+                    <p>Grow your own vegetables like tomatoes, spinach, and cucumbers in your garden.</p>
+                </div>
+                <div class="plant-card">
+                    <h3>Herbs</h3>
+                    <p>Fresh herbs like basil, mint, and parsley are easy to grow and add flavor to your meals.</p>
+                </div>
+                <div class="plant-card">
+                    <h3>Flowers</h3>
+                    <p>Beautify your home with colorful flowers like roses, sunflowers, and daisies.</p>
+                </div>
+            </div>
+
+            <!-- Back to Home Button -->
+            <a class="back-button" href="index.html">Back to Home</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Home Gardening | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
